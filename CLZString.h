@@ -50,7 +50,6 @@ static int getBaseValue(wstring alphabet, char character)
 typedef		int(*GetNextValue)(wstring&,int);
 typedef		wstring (*GetCharFromInt)(int);
 
-//밑에 두개 함수 확인해야함
 int GetVal(wstring &compressed, int index)
 {
 	return compressed[index];
